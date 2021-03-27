@@ -30,7 +30,7 @@ if result['code'] == 10002:
     url1 = "https://sc.ftqq.com/SCT4665TFVeeQeY1LPtYlJ8scrnwHroz.send?text="+result['message']
     requests.get(url1,headers=headers1)
 elif result['code'] == 20001:
-    print('签到成功')
+    print('建行生活 签到成功')
 else:
     url1 = "https://sc.ftqq.com/SCT4665TFVeeQeY1LPtYlJ8scrnwHroz.send?text=token失效/领券成功！"
     requests.get(url1, headers=headers1)
